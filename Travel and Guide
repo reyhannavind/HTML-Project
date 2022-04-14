@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Title of the document</title>
-</head>
-
-<body>
-
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <title>Tour & Travel</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+              <div class="header-left">
+                <a href="#">Home</a>
+                <a href="#">Tour Packages</a>
+                <a href="#">About Us</a>
+              </div>  
+            </div>
+          </header>
+          <div class="top-wrapper">
+              <div class="container">
+                  <h1>Tour and Travel</h1>
+                  <h3>Call +6281367580909</h3>
+              </div>
+          </div>
+          <div class="tour-packages">
+              <div class="container">
+                <div class="tours">
+                    <div class="tour">
+                      <div class="tour-icon">
+                        <img src="bromo.jpg">
+                        <p>Bromo</p>
+                      </div>
+                      <p class="txt-contents">Indonesia</p>
+                      <p class="txt-contents">3 Hari</p>
+                      <p class="txt-contents">Rp. 5.000.000/pax</p>
+                    </div>
+                    <div class="tour">
+                        <div class="tour-icon">
+                          <img src="rajampat.jpg">
+                          <p>Bromo</p>
+                        </div>
+                        <p class="txt-contents">Indonesia</p>
+                        <p class="txt-contents">4 Hari</p>
+                        <p class="txt-contents">Rp. 6.000.000/pax</p>
+                      </div>
+                      <div class="tour">
+                        <div class="tour-icon">
+                          <img src="sabang.jpg">
+                          <p>Bromo</p>
+                        </div>
+                        <p class="txt-contents">Indonesia</p>
+                        <p class="txt-contents">2 Hari</p>
+                        <p class="txt-contents">Rp. 3.000.000/pax</p>
+                      </div>
+              </div>
+          </div>
+    </body>
+    
 </html>
